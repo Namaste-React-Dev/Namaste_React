@@ -42,7 +42,10 @@ CrossOrigin - ???
 3 (a) -> what is {} in createElement : This object is use to Pass in attributes to the react elements.
 React.createElement("h1",{},"Nmaste EveryOne from React") == <h1>Namaste EveryOne from React</h1>
 but we want to put any attributes then.
-React.createElement("h1",{id = "title"},"Nmaste EveryOne from React") == <h1 id = "title">Namaste EveryOne from React</h1>
+React.createElement("h1",{id = "title"},"Nmaste EveryOne from React") ==
+``` HTML 
+<h1 id = "title">Namaste EveryOne from React</h1> 
+```
 
 4. if we console(reactHeading) -> createElement: React element is nothing but just plain js object of type h1.
 
